@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ums.javafx.Page_24_A_View_Instructor_Controller">
+   <children>
+      <ScrollPane prefHeight="5000.0" prefWidth="5000.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="5000.0" prefWidth="5000.0">
+               <children>
+                  <Button fx:id="backButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#backButtonHandler" text="&lt; Back">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                  <TableView fx:id="instructorTable" layoutX="17.0" layoutY="66.0" prefHeight="577.0" prefWidth="3335.0">
+                    <columns>
+                      <TableColumn fx:id="uniqueIdCol" prefWidth="200.0" text="Unique ID" />
+                        <TableColumn fx:id="userTypeCol" prefWidth="144.0" text="User Type" />
+                      <TableColumn fx:id="userIdCol" prefWidth="121.0" text="User ID" />
+                        <TableColumn fx:id="passCol" prefWidth="127.0" text="Password" />
+                        <TableColumn fx:id="statusCol" prefWidth="131.0" text="Status" />
+                        <TableColumn fx:id="firstNameCol" prefWidth="141.0" text="First Name" />
+                        <TableColumn fx:id="lastNameCol" prefWidth="141.0" text="Last Name" />
+                        <TableColumn fx:id="fathersNameCol" prefWidth="141.0" text="Father's Name" />
+                        <TableColumn fx:id="mothersNmaeCol" prefWidth="141.0" text="Mother's Name" />
+                        <TableColumn fx:id="dobCol" prefWidth="141.0" text="Date Of Birth" />
+                        <TableColumn fx:id="bloodGroupCol" prefWidth="141.0" text="Blood Group" />
+                        <TableColumn fx:id="nationalityCol" prefWidth="141.0" text="Nationality" />
+                        <TableColumn fx:id="religionCol" prefWidth="141.0" text="Religion" />
+                        <TableColumn fx:id="addressCol" prefWidth="141.0" text="Address" />
+                        <TableColumn fx:id="phoneCol" prefWidth="141.0" text="Phone" />
+                        <TableColumn fx:id="emailCol" prefWidth="141.0" text="Email" />
+                        <TableColumn fx:id="designationCol" prefWidth="141.0" text="Designation" />
+                        <TableColumn fx:id="salaryCol" prefWidth="141.0" text="Salary" />
+                        <TableColumn fx:id="isChairpersonCol" prefWidth="141.0" text="Is Chairperson" />
+                        <TableColumn fx:id="enrollSemCol" prefWidth="141.0" text="Enrollment Semester" />
+                        <TableColumn fx:id="enrollYearCol" prefWidth="141.0" text="Enrollment Year" />
+                        <TableColumn fx:id="joinDateCol" prefWidth="141.0" text="Join Date" />
+                        <TableColumn fx:id="deptCol" prefWidth="141.0" text="Department" />
+                    </columns>
+                  </TableView>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+   </children>
+</StackPane>

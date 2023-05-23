@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ums.javafx.Page_31_A_Add_Student_Controller">
+   <children>
+      <ScrollPane prefHeight="3000.0" prefWidth="800.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="3000.0" prefWidth="800.0">
+               <children>
+                  <Button fx:id="backButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#backButtonHandler" text="&lt; Back">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                  <Label layoutX="329.0" layoutY="32.0" text="Add Student">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <GridPane layoutX="54.0" layoutY="112.0" prefHeight="1129.0" prefWidth="670.0">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="328.0" minWidth="10.0" prefWidth="205.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="511.0" minWidth="10.0" prefWidth="465.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Label text="Personal Details:">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font></Label>
+                        <Label text="First Name" GridPane.rowIndex="3">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font></Label>
+                        <Label text="Last Name" GridPane.rowIndex="4">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font></Label>
+                        <Label text="Father's Name" GridPane.rowIndex="5">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font></Label>
+                        <Label text="Mother's Name" GridPane.rowIndex="6">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font></Label>
+                        <Label text="Date of Birth" GridPane.rowIndex="7">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font></Label>
+                        <Label text="Unique ID" GridPane.rowIndex="2">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font></Label>
+                        <Label text="Blood Group" GridPane.rowIndex="8">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font></Label>
+                        <Label text="Nationality" GridPane.rowIndex="9">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font></Label>
+                        <Label text="Religion" GridPane.rowIndex="10">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font></Label>
+                        <Label text="Address" GridPane.rowIndex="11">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font></Label>
+                        <Label text="Phone" GridPane.rowIndex="12">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font></Label>
+                        <Label text="Email" GridPane.rowIndex="13">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font></Label>
+                        <Label text="User Credentials:" GridPane.rowIndex="15">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font></Label>
+                        <Label text="User Type" GridPane.rowIndex="17">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font></Label>
+                        <Label text="User ID" GridPane.rowIndex="18">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font></Label>
+                        <Label text="Password" GridPane.rowIndex="19">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font></Label>
+                        <Label text="Status" GridPane.rowIndex="20">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font></Label>
+                        <Label text="Academic Information:" GridPane.rowIndex="22">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font></Label>
+                        <Label text="Enrollment Semester" GridPane.rowIndex="24">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label text="Current Semester" GridPane.rowIndex="26">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label text="Enrollment Year" GridPane.rowIndex="25">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label text="Current Year" GridPane.rowIndex="27">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label text="Total Credit" GridPane.rowIndex="28">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label text="Current Credit" GridPane.rowIndex="29">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label text="CGPA" GridPane.rowIndex="30">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label text="Admission Date" GridPane.rowIndex="31">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label text="Department" GridPane.rowIndex="32">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label text="Advisor" GridPane.rowIndex="33">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="uniqueIdTF" editable="false" text="Automatically Generated" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                        <TextField fx:id="firstNameTF" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                        <TextField fx:id="lastNameTF" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                        <TextField fx:id="fathersNameTF" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                        <TextField fx:id="mothersNameTF" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="7">
+                           <children>
+                              <TextField fx:id="dobDDTF" alignment="CENTER" prefHeight="25.0" prefWidth="164.0" promptText="DD" />
+                              <TextField fx:id="dobMMTF" alignment="CENTER" promptText="MM" />
+                              <TextField fx:id="dobYYYYTF" alignment="CENTER" promptText="YYYY" />
+                           </children>
+                        </HBox>
+                        <TextField fx:id="bloodGroupTF" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+                        <TextField fx:id="nationalityTF" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+                        <TextField fx:id="religionTF" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+                        <TextField fx:id="addressTF" GridPane.columnIndex="1" GridPane.rowIndex="11" />
+                        <TextField fx:id="phoneTF" GridPane.columnIndex="1" GridPane.rowIndex="12" />
+                        <TextField fx:id="emailTF" GridPane.columnIndex="1" GridPane.rowIndex="13" />
+                        <TextField fx:id="userTypeTF" editable="false" text="Student" GridPane.columnIndex="1" GridPane.rowIndex="17" />
+                        <TextField fx:id="userIdTF" text="Automatically Generated" GridPane.columnIndex="1" GridPane.rowIndex="18" />
+                        <TextField fx:id="passTF" GridPane.columnIndex="1" GridPane.rowIndex="19" />
+                        <ChoiceBox fx:id="statusCB" prefHeight="25.0" prefWidth="464.0" GridPane.columnIndex="1" GridPane.rowIndex="20" />
+                        <TextField fx:id="enrollYearTF" GridPane.columnIndex="1" GridPane.rowIndex="25" />
+                        <TextField fx:id="currYearTF" GridPane.columnIndex="1" GridPane.rowIndex="27" />
+                        <TextField fx:id="totalCreditTF" GridPane.columnIndex="1" GridPane.rowIndex="28" />
+                        <TextField fx:id="currCreditTF" GridPane.columnIndex="1" GridPane.rowIndex="29" />
+                        <TextField fx:id="cgpaTF" GridPane.columnIndex="1" GridPane.rowIndex="30" />
+                        <ChoiceBox fx:id="advisorCB" prefHeight="25.0" prefWidth="470.0" GridPane.columnIndex="1" GridPane.rowIndex="33" />
+                        <ChoiceBox fx:id="deptCB" prefHeight="25.0" prefWidth="470.0" GridPane.columnIndex="1" GridPane.rowIndex="32" />
+                        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="31">
+                           <children>
+                              <TextField fx:id="adDDTF" alignment="CENTER" prefHeight="25.0" prefWidth="161.0" promptText="DD" />
+                              <TextField fx:id="adMMTF" alignment="CENTER" promptText="MM" />
+                              <TextField fx:id="adYYYYTF" alignment="CENTER" promptText="YYYY" />
+                           </children>
+                        </HBox>
+                        <ChoiceBox fx:id="enrollSenCB" prefHeight="25.0" prefWidth="461.0" GridPane.columnIndex="1" GridPane.rowIndex="24" />
+                        <ChoiceBox fx:id="currSemCB" prefHeight="25.0" prefWidth="469.0" GridPane.columnIndex="1" GridPane.rowIndex="26" />
+                     </children>
+                  </GridPane>
+                  <Button fx:id="createButton" layoutX="603.0" layoutY="1347.0" mnemonicParsing="false" onAction="#createButtonHandler" prefHeight="39.0" prefWidth="121.0" text="Create">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+   </children>
+</StackPane>

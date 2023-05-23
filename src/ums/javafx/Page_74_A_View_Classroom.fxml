@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ums.javafx.Page_74_A_View_Classroom_Controller">
+   <children>
+      <AnchorPane prefHeight="600.0" prefWidth="800.0">
+         <children>
+            <Button fx:id="backButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#backButtonHandler" text="&lt; Back">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <TableView fx:id="classroomTV" layoutX="14.0" layoutY="55.0" prefHeight="479.0" prefWidth="761.0">
+              <columns>
+                <TableColumn fx:id="idCol" prefWidth="142.0" text="ID" />
+                <TableColumn fx:id="buildingCol" prefWidth="129.0" text="Building" />
+                  <TableColumn fx:id="roomNumCol" prefWidth="180.0" text="Room Number" />
+                  <TableColumn fx:id="capacityCol" prefWidth="180.0" text="Capacity" />
+              </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

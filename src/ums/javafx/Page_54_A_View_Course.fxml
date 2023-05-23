@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ums.javafx.Page_54_A_View_Course_Controller">
+   <children>
+      <AnchorPane prefHeight="600.0" prefWidth="800.0">
+         <children>
+            <Button fx:id="backButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#backButtonHandler" text="&lt; Back">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <TableView fx:id="courseTV" layoutX="14.0" layoutY="73.0" prefHeight="490.0" prefWidth="760.0">
+              <columns>
+                <TableColumn fx:id="cCodeCol" prefWidth="92.0" text="Course Code" />
+                  <TableColumn fx:id="cTitleCol" prefWidth="302.0" text="Course Title" />
+                  <TableColumn fx:id="cCreditCol" prefWidth="98.0" text="Course Credit" />
+                  <TableColumn fx:id="cCreditHourCol" prefWidth="153.0" text="Course Credit Hour" />
+                  <TableColumn fx:id="cDeptCol" minWidth="9.0" prefWidth="95.0" text="Department" />
+              </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ums.javafx.Page_64_A_View_Section_Controller">
+   <children>
+      <AnchorPane prefHeight="600.0" prefWidth="800.0">
+         <children>
+            <Button fx:id="backButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#backButtonHandler" text="&lt; Back">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <TableView fx:id="secTV" layoutX="14.0" layoutY="69.0" prefHeight="489.0" prefWidth="761.0">
+              <columns>
+                <TableColumn fx:id="secIdCol" prefWidth="103.0" text="Section ID" />
+                  <TableColumn fx:id="secNameCol" prefWidth="103.0" text="Section Name" />
+                  <TableColumn fx:id="secSemCol" prefWidth="103.0" text="Semester" />
+                  <TableColumn fx:id="secYearCol" prefWidth="103.0" text="Year" />
+                  <TableColumn fx:id="secCourseCol" prefWidth="103.0" text="Course" />
+                  <TableColumn fx:id="secInsCol" prefWidth="103.0" text="Instructor" />
+              </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

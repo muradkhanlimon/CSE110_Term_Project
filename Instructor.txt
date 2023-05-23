@@ -1,0 +1,4 @@
+Professor;120000.0;false;Spring;2019;61509866400000;CSE;Instructor;I2019160001;1234;ACTIVATED;Instructor - 1;NA;NA;NA;60876036000000;A-;Bangladeshi;Islam;Rampura;123456789;instructor1@ewubd.edu;
+a;500000.0;false;Spring;2000;60910336800000;CSE;Instructor;I20001608;1234;ACTIVATED;Dr. Taskeed;Jabid;a;a;59487501600000;O+;a;a;a;a;a;
+Associate Professor;110000.0;false;Spring;2019;61509866400000;CSE;Instructor;I2019160003;1234;ACTIVATED;Instructor - 3;NA;NA;NA;60876036000000;A+;Bangladeshi;Islam;Gulshan;123456789;instructor32ewubd.edu;
+Assistant Professor;100000.0;false;Spring;2019;61509866400000;CSE;Instructor;I2019160002;1234;ACTIVATED;Instructor - 2;NA;NA;NA;60876036000000;B+;Bangladeshi;Islam;Badda;123456789;instructor2@ewubd.edu;
